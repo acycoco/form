@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send</title>
+</head>
+<body>
+<!--http://localhost:8080/ 생략가능-->
+<form action="/receive" method="post"> <!--action안에 url 내용을 보낼 주소-->
+  <label for="message">Message:    <!--이름: 빈칸에서 이름의 역할-->
+    <input type="text" id="message" name="msg" /> <!--input: 빈칸의 역할 -->
+  </label>
+    <label for="email">
+        <input type="text" id="email" name="email" />
+    </label>
+    <br><br>
+  <input type="submit">
+</form>
+</body>
+</html>
